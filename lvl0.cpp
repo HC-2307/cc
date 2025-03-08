@@ -74,7 +74,7 @@ public:
         cout << "Backward: ";
         while (temp != nullptr) {  //Traverse backward and print
             cout << temp->data << " ";
-            temp = temp->prev;
+            temp = temp->pre;
         }
         cout << "NULL" << endl;
     }
